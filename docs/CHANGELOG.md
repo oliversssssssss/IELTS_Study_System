@@ -3,6 +3,9 @@
 Format: `<date> · <task-id> · <description>`
 
 ## 2026-06-04
+- P0-09 · Tesseract OCR 封装（ocr_image / ocr_images，Pillow 预处理，段落感知文本清理，mock 单测覆盖）
+- P0-08 · spaCy NLP 封装（tokenize_with_lemma / split_sentences / extract_unique_lemmas，lru_cache 单例，mock 单测覆盖）
+- P0-07 · Bark 推送封装（push_bark，环境变量配置，mock 单测覆盖成功与失败路径）
 - P0-06 · DeepSeek LLM 客户端封装（chat / chat_structured / embed，lru_cache 单例，100% 单测覆盖）
 - P0-03 · Install spaCy + en_core_web_lg (~750MB English model)
 - P0-04 · Install Tesseract OCR (system) + pytesseract + Pillow
