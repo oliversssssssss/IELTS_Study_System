@@ -3,6 +3,7 @@
 Format: `<date> · <task-id> · <description>`
 
 ## 2026-06-04
+- P1-05 · MasteryEngine 熟练度引擎（状态机自动升级、按方法连接、lookup_batch 单 SQL，34 单测 99% 覆盖）
 - P1-04 · ECDICT 词库导入脚本（考试标签筛选、words/mastery 批量导入、Typer CLI 与单测覆盖）
 - P1-02 · 数据库初始化脚本（init_db 执行 schema、启用 WAL/外键、幂等单测覆盖）
 - P1-01 · 词汇数据库 schema（words、mastery、word_occurrences、collocations，约束与索引单测覆盖）
